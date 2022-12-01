@@ -1,13 +1,16 @@
 o	   [22,27,16,2,18,6] -> Insertion Sort
 
 Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+
 CEVAP: 
 2 dizinin en küçük sayısıdır, en başa eklemek için 22 ile yer değiştirir. [2,27,16,22,18,6]
 2'den sonra en küçük sayı 6'dır, 27 ile yer değiştirir.[2,6,16,22,18,27]
 16 üçüncü küçük sayıdır ve 3.sırada olduğu için yer değiştirmez.[2,6,16,22,18,27]
 Diğer küçük sayı 18'dir 22 ile yer değiştirir ve sonucunda sıralama doğru olduğu için işlem sonlanır.[2,6,16,18,22,27]
 
+
 o	Big-O gösterimini yazınız.
+
 CEVAP:
 [22,27,16,2,18,6] dizisinde 6 eleman vardır bu da 6 kez işlem yapılacak demektir.
 Big-O yöntemine göre sıralama yapılırken işlem sayısı da n olur. Son işlem sayısı 1 olana kadar devam eder.
@@ -21,6 +24,7 @@ Big-O yöntemine göre sıralama yapılırken işlem sayısı da n olur. Son iş
 •	Bu işlemin formülü: [n(n+1)]/2'dir. Bu formül sadeleştirilerek: (n²+n)/2 elde edilir.
 •	Big-O Notation'da kat sayı önemsizdir; yani domine eden fonksiyon n² alınır.
 •	Big-O değeri = O(n²)
+
 
 o	Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız
 
